@@ -4,7 +4,7 @@ import Providers from './contexts'
 import Header from './components/Header'
 import Nested from './components/Nested'
 
-export default function App() {
+export default function App () {
   return (
     <Providers>
       <Nested>

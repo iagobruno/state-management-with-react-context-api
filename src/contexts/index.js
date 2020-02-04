@@ -1,11 +1,11 @@
 import React from 'react'
-import { UserProvider } from './User'
+import { AuthProvider } from './Auth'
 
-function Providers(props) {
+function Providers (props) {
   return (
-    <>
-      <UserProvider>{props.children}</UserProvider>
-    </>
+    <AuthProvider>
+      {props.children}
+    </AuthProvider>
   )
 }
 
